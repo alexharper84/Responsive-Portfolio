@@ -16,6 +16,31 @@ body {
     clear: both;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
 /* header */
 
 #masthead {
@@ -30,7 +55,7 @@ body {
 }
 
 #logo {
-    width: 250px;
+    width: 270px;
     height: 90px;
     background: #4aaaa5;
     float: left;
@@ -60,4 +85,28 @@ nav a{
 
 nav a:first-child {
     border-left: 0 none;
+}
+
+/* main */
+
+#main-container {
+    padding-top: 130px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.auth-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
 }
