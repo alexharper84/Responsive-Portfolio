@@ -1,8 +1,17 @@
+/* my css */
+
+#textCenter {
+    text-align: center;
+}
+
+/* instructor css */
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    background: url('../image/concrete_seamless.png');
     font-size: 18px;
     line-height: 34px;
     font-family: Helvetica, sans-serif;
