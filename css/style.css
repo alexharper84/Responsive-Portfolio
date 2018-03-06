@@ -234,3 +234,71 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+/* Mobile Screen Size Begin */
+
+@media handheld, screen and (max-width: 640px) {
+
+    /* Home Page Begin */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    nav a{
+        color: #999;
+        text-decoration: none;
+        margin-left: 15px;
+        display: inline-block;
+        /* border-left: 1px solid #efefef; */
+        padding-left: 15px;
+        line-height: 18px;
+    }
+
+    #logo {
+        width: 100%;
+        height: 90px;
+        background: #4aaaa5;
+        font-family: 'Helvetica', sans-serif;
+        text-align: center;
+        line-height: 90px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+
+  }
+  
+  
+  
+  /* Tablet Screen Size Begin */
+  
+  /* @media only screen and (min-width: 600px) and (max-width: 899px) {
+    
+    .home_races_container {
+      width: 70%;
+      position: relative;
+      top: 5em;
+      min-width: 600px;
+    }
+  
+    .home_race_image {
+      margin: 1em 0em 0 1em;
+      width: 130px;
+      height: 130px;
+    }
+  
+    .left-container > div {
+      position: relative;
+      top: 11em;
+    }
+  
+  } */
+  
